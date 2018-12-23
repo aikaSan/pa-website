@@ -1,0 +1,177 @@
+  body {
+      font: 400 15px Quicksand, sans-serif;
+      line-height: 1.0;
+      color: #818181;
+      text-align: justify;
+  }  
+/*Navigation menu*/
+  .navbar {
+      margin-bottom: 0;
+      background-color: #000099;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      /*line-height: 2.0 !important;*/
+      line-height: 1.42857143 !important;
+      letter-spacing: 3px;
+      border-radius: 0;
+      font-family: Quicksand, sans-serif;
+      font-weight: bold;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #000099 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;    
+  }
+  .nav-logo{
+      max-width: 150px; 
+      margin-top: -15px
+  }
+
+  /*Title*/
+  .jumbotron {
+      background-image: url("img/title.jpg");
+      background-size: cover;
+      background-color: #000099;
+      background-repeat: no-repeat;
+      color: #fff;
+      padding: 200px 25px;
+      font-family: Paytone One, sans-serif;
+  }
+
+  .img-jumbotron {
+    max-width: 300px;
+    max-height: 300px;
+    background-size: cover;
+  }
+  
+/*Container - Perfil de la empresa*/
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  .container-fluid {
+      padding: 70px 60px;
+  }
+
+/*Container - Experiencia*/
+  .bg-grey{
+    background-color: #f6f6f6;
+  }
+
+/*Columns - Perfil de la empresa*/
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .logo {
+        font-size: 100px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 100px;
+    }
+  }
+
+/*Icons*/
+  .logo{
+    color: #000099;
+    font-size: 200px;
+  }
+
+  .contact-icon{
+    font-size: 25px;
+  }
+
+  .logo-small {
+      color: #000099;
+      font-size: 50px;
+  }
+
+  .img-servicios{
+    max-height: 150px;
+    max-width: 150px;
+  }
+
+/*Experiencia*/
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  .carousel-inner img {
+      margin: auto;
+      max-height:600px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #000099;
+  }
+  .carousel-indicators li {
+      border-color: #000099;
+  }
+  .carousel-indicators li.active {
+      background-color: #000099;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+
+/*Contact text*/
+  .contact-text{
+      font-family: Quicksand, sans-serif;
+      font-size: 15px;
+  }
+
+/*Footer*/
+  .container-footer {
+      padding: 25px 15px;
+  }
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 20px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
